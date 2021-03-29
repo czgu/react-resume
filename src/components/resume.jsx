@@ -11,6 +11,7 @@ import { Projects } from "./Projects";
 const StyledContent = styled.div`
   flex: 1;
   display: flex;
+  padding-bottom: 10px;
 
   .main-content {
     flex: 3;

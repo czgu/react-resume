@@ -13,6 +13,7 @@ const StyledExperience = styled.div`
       margin-right: 5px;
     }
   }
+  margin-bottom: 5px;
 `;
 
 export const Experience = () => {
