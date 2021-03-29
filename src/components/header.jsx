@@ -1,13 +1,27 @@
 import React from "react";
 import styled from "styled-components";
-import contact from "../data/contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import contact from "../data/contact";
+import { Link } from "./ui/Link";
+import { Heading } from "./ui/Text";
 
-export const StyledContactRow = styled.span``;
+export const StyledContactRow = styled.span`
+  .contact-row-icon {
+    height: 100%;
+    width: 20px;
+    display: inline-flex;
+    justify-content: center;
+  }
+  .contact-row-data {
+    margin-left: 5px;
+  }
+`;
 const ContactRow = ({ icon, children }) => {
   return (
     <StyledContactRow>
-      <FontAwesomeIcon icon={icon} />
+      <span className="contact-row-icon">
+        <FontAwesomeIcon icon={icon} />
+      </span>
       <span className="contact-row-data">{children}</span>
     </StyledContactRow>
   );
@@ -16,6 +30,9 @@ const ContactRow = ({ icon, children }) => {
 const StyledHeader = styled.div`
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: var(--border);
+
   .contact-name {
     display: flex;
     flex-direction: column;
@@ -31,7 +48,7 @@ const StyledHeader = styled.div`
   .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
   }
 `;
 
@@ -39,14 +56,22 @@ export const Header = () => {
   return (
     <StyledHeader>
       <div className="contact-name">
-        <h1>{contact.name}</h1>
-        <h3>{contact.tagline}</h3>
+        <Heading size={"2.5em"}>{contact.name}</Heading>
+        <Heading size={"1em"} weight={"500"}>
+          {contact.tagline}
+        </Heading>
       </div>
       <div className="contact-info">
         <ContactRow icon="mobile">{contact.phone}</ContactRow>
-        <ContactRow icon="envelope">{contact.email}</ContactRow>
-        <ContactRow icon={["fab", "github"]}>{contact.github}</ContactRow>
-        <ContactRow icon={["fab", "linkedin"]}>{contact.linkedin}</ContactRow>
+        <ContactRow icon="envelope">
+          <Link url={contact.email} isEmail />
+        </ContactRow>
+        <ContactRow icon={["fab", "github"]}>
+          <Link url={contact.github} />
+        </ContactRow>
+        <ContactRow icon={["fab", "linkedin"]}>
+          <Link url={contact.linkedin} />
+        </ContactRow>
       </div>
     </StyledHeader>
   );
