@@ -3,7 +3,7 @@ const projects = [
     name: "Querybook",
     time: {
       from: "Sept 2017",
-      to: "Presnet",
+      to: "Present",
     },
     techStack: ["React/Redux", "Flask", "Celery", "SocketIO", "ElasticSearch"],
     descriptions: [
@@ -19,8 +19,7 @@ const projects = [
     },
     techStack: ["WebGL", "browserify"],
     descriptions: [
-      "A 3D graphics renderer built with vanilla JS.",
-      "Supports terrain/water rendering, skybox, lighting.",
+      "A 3D graphics renderer built with vanilla JS. Supports terrain/water rendering, skybox, lighting.",
     ],
   },
 ];

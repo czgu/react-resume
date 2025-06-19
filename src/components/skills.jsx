@@ -34,7 +34,7 @@ export const Skills = () => {
     ) {
       return (
         <div>
-          <Heading size={level === 1 ? "1.2em" : "1.1em"}>
+          <Heading size={level === 1 ? "1.1em" : "1em"}>
             {skillItem[0]}
           </Heading>
           <div>{renderSkills(skillItem[1], level)}</div>

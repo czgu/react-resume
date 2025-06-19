@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-import { A4Page } from "./A4page";
-import { Header } from "./Header";
-import { Experience } from "./Experience";
-import { Skills } from "./Skills";
-import { Education } from "./Education";
-import { Projects } from "./Projects";
+import { A4Page } from "./a4page";
+import { Header } from "./header";
+import { Experience } from "./experience";
+import { Skills } from "./skills";
+import { Education } from "./education";
+import { Projects } from "./projects";
 
 const StyledContent = styled.div`
   flex: 1;

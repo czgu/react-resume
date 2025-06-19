@@ -1,13 +1,13 @@
 const skills = [
   [
     "Languages",
-    ["Typescript", "Javascript", "Python", "C/C++", "Groovy", "Bash", "SQL"],
+    ["Typescript", "Javascript", "Python", "Groovy", "SQL"],
   ],
   [
     "Technologies",
     [
-      ["Web", ["React", "Redux", "Mobx", "D3", "Next.js", "WebGL"]],
-      ["Backend", ["Docker", "Flask", "Celery", "SQLAlchemy", "Gevent"]],
+      ["Web", ["React", "Redux", "Shadcn", "Tailwind", "Next.js", "Vite"]],
+      ["Backend", ["Docker", "FastAPI/Flask", "Celery", "SQLAlchemy", "Langchain", "Langgraph"]],
       ["Databases", ["MySQL", "Redis", "ElasticSearch"]],
     ],
   ],

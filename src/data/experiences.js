@@ -1,19 +1,34 @@
 const experiences = [
   {
     company: "Pinterest",
+    position: "Senior Engineering Manager",
+    location: "San Francisco, CA",
+    time: {
+      from: "Mar 2023",
+      to: "Present",
+    },
+
+    descriptions: [
+      `Lead the Analytics Platform team spanning analytics tooling, internal tools platform, ML & Workflow tooling, and GenAI enablement to improve dev and general productivity.`,
+      `Drive development of internal tools like Querybook, Superset, ITP, PDocs, and MLHub for data, tooling, and documentation needs.`,
+      `Drove wide adoption of GenAI at Pinterest by enabling LLM API access, prompt eval tooling, and productivity tools.`
+    ],
+  },
+  {
+    company: "Pinterest",
     position: "Senior Software Engineer",
     location: "San Francisco, CA",
     time: {
       from: "June 2017",
-      to: "Present",
+      to: "Mar 2023",
       notes: "(internship Jan - May 2015, Jun - Aug 2016)",
     },
 
     descriptions: [
-      `Pioneered and developed Querybook, a big data IDE web app built with React and Flask. It is one of the most widely used internal tools at Pinterest.`,
-      `Refactored and contributed to the open-source Querybook (querybook.org). Rewrote the code to be plugin-based to separate internal logic. Wrote comprehensive documentation for users and developers. Setup Github actions for CI/CD.`,
-      `Contributed to Internal Tools Platform, which is a collection of libraries and pipelines to make internal web development easier. Implemented a Docker based VSCode dev environment and improved the Jenkins Groovy pipeline.`,
-      `Designed and kickstarted multiple data tool projects such as Flohub (UI-based SQL query scheduler) and WQuery (template-based query UI).`,
+      `Led development and open-sourcing of Querybook, one of Pinterest's most-used and highest-rated internal tools; scaled it with a plugin-based architecture and improved usability with CI/CD and comprehensive docs.`,
+      `Improved the Internal Tools Platform with a Docker-based VSCode dev setup and streamlined Jenkins Groovy pipelines.`,
+      `Initiated and designed data tools like Flohub (SQL scheduler UI) and WQuery (template-based query interface).`
+
     ],
   },
   {
@@ -39,21 +54,7 @@ const experiences = [
     },
 
     descriptions: [
-      "Improved and productionized an anomaly detector based on the random forest to run on Cosmos.",
-      "Developed a support ticket categorizer alongside a website for manual correction.",
-    ],
-  },
-  {
-    company: "Osellus Mobile",
-    position: "Software Developer (Co-op)",
-    location: "Toronto, ON",
-    time: {
-      from: "May 2014",
-      to: "Aug 2014",
-    },
-
-    descriptions: [
-      "Developed an animation creator using Cocoa which can export animations that can be played on Mac and IOS.",
+      "Productionized a random forest-based anomaly detector on Cosmos and built a support ticket categorizer with a manual correction UI.",
     ],
   },
 ];

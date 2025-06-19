@@ -17,7 +17,7 @@ export const Projects = () => {
   const projectsDOM = projects.map((project) => (
     <StyledProject key={project.name}>
       <div className="project-title">
-        <Heading size="1.1em">{project.name}</Heading>{" "}
+        <Heading size="1em">{project.name}</Heading>{" "}
         <Text color="darkgray" size="0.8em">
           {project.time.from} - {project.time.to}
         </Text>
