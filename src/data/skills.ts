@@ -1,4 +1,6 @@
-const skills = [
+import type { Skills } from "../types";
+
+const skills: Skills = [
   [
     "Leadership",
     [
