@@ -11,17 +11,6 @@ const projects = [
       "Can execute many queries with live updates by leveraging Celery and SocketIO.",
     ],
   },
-  {
-    name: "WebGL Engine",
-    time: {
-      from: "June 2017",
-      to: "Nov 2017",
-    },
-    techStack: ["WebGL", "browserify"],
-    descriptions: [
-      "A 3D graphics renderer built with vanilla JS. Supports terrain/water rendering, skybox, lighting.",
-    ],
-  },
 ];
 
 export default projects;
