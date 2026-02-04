@@ -1,14 +1,54 @@
 const skills = [
   [
-    "Languages",
-    ["Typescript", "Javascript", "Python", "Groovy", "SQL"],
+    "Leadership",
+    [
+      "Engineering Management",
+      "Cross-functional Collaboration",
+      "Vendor Strategy",
+      "Technical Roadmapping",
+    ],
+  ],
+  [
+    "GenAI/AI",
+    [
+      "LLM Infrastructure",
+      "Agent Platforms",
+      "Agentic Coding",
+      "Prompt Evaluation",
+      "AI Automation",
+    ],
+  ],
+  [
+    "Platform",
+    [
+      "Internal Developer Tools",
+      "CI/CD",
+      "API Design",
+      "Docker",
+      "Plugin Architecture",
+      "DevOps",
+    ],
+  ],
+  [
+    "Data",
+    [
+      "Analytics Platforms",
+      "Data Discovery",
+      "SQL",
+      "ML Workflows",
+      "MLOps",
+    ],
   ],
   [
     "Technologies",
     [
-      ["Web", ["React", "Redux", "Shadcn", "Tailwind", "Next.js", "Vite"]],
-      ["Backend", ["Docker", "FastAPI/Flask", "Celery", "SQLAlchemy", "Langchain", "Langgraph"]],
-      ["Databases", ["MySQL", "Redis", "ElasticSearch"]],
+      "Querybook",
+      "Superset",
+      "Slack",
+      "Browser Extensions",
+      "VSCode",
+      "Jenkins",
+      "Open Source",
     ],
   ],
 ];
