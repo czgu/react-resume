@@ -30,15 +30,9 @@ const StyledContent = styled.div`
   .sub-content {
     display: flex;
     flex-direction: column;
-  }
-
-  .main-content {
     justify-content: space-between;
   }
-  
-  .sub-content {
-    gap: 12px;
-  }
+
 `;
 
 export const Resume = () => {
