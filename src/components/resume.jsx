@@ -30,7 +30,10 @@ const StyledContent = styled.div`
   .sub-content {
     display: flex;
     flex-direction: column;
-    // justify-content: space-between;
+  }
+
+  .main-content {
+    justify-content: space-between;
   }
   
   .sub-content {

@@ -37,7 +37,7 @@ export const Experience = () => {
         <List>
           {descriptions.map((d, i) => (
             <ListItem key={i}>
-              <Text>{d}</Text>
+              <Text size="0.9em">{d}</Text>
             </ListItem>
           ))}
         </List>
