@@ -4,13 +4,18 @@ import skills from "../data/skills";
 import { Heading, Text } from "./ui/Text";
 
 const SkillRow = styled.div`
-  margin-bottom: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   line-height: 1.4;
 `;
 
 const CategoryName = styled.span`
   font-weight: bold;
 `;
+
+const CategoryDesc = styled.span`
+  font-weight: 400;
+`
 
 export const Skills = () => {
   return (
@@ -19,7 +24,7 @@ export const Skills = () => {
       {skills.map(([category, items], index) => (
         <SkillRow key={index}>
           <Text>
-            <CategoryName>{category}:</CategoryName> {items.join(", ")}
+            <CategoryName>{category}:</CategoryName> <CategoryDesc>{items.join(", ")}</CategoryDesc>
           </Text>
         </SkillRow>
       ))}

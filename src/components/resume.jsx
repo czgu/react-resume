@@ -30,7 +30,11 @@ const StyledContent = styled.div`
   .sub-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    // justify-content: space-between;
+  }
+  
+  .sub-content {
+    gap: 12px;
   }
 `;
 

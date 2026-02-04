@@ -3,16 +3,17 @@ const skills = [
     "Leadership",
     [
       "Engineering Management",
-      "Cross-functional Collaboration",
-      "Vendor Strategy",
+      "Strategic Planning",
+      "Vendor Relations",
       "Technical Roadmapping",
+      "Sprint Management"
     ],
   ],
   [
     "GenAI/AI",
     [
-      "LLM Infrastructure",
-      "Agent Platforms",
+      "LLM Proxy",
+      "Agent Serving",
       "Agentic Coding",
       "Prompt Evaluation",
       "AI Automation",
@@ -22,33 +23,29 @@ const skills = [
     "Platform",
     [
       "Internal Developer Tools",
-      "CI/CD",
-      "API Design",
-      "Docker",
-      "Plugin Architecture",
-      "DevOps",
+      "Agent Platform",
+      "Retool",
     ],
   ],
   [
     "Data",
     [
-      "Analytics Platforms",
+      "Data Visualization",
       "Data Discovery",
       "SQL",
-      "ML Workflows",
       "MLOps",
     ],
   ],
   [
     "Technologies",
     [
+      "LangGraph",
+      "FastAPI",
       "Querybook",
       "Superset",
-      "Slack",
-      "Browser Extensions",
-      "VSCode",
       "Jenkins",
-      "Open Source",
+      "Python",
+      "Typescript"
     ],
   ],
 ];

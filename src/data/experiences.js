@@ -25,7 +25,7 @@ const experiences = [
     },
 
     descriptions: [
-      `Led 15+ member Analytics Platform team across analytics tooling, internal tool platforms, ML, workflows, and GenAI enablement, driving measurable improvements in engineering and employee productivity.`,
+      `Led 15+ member Analytics Platform team across analytics tooling, internal tool platform, Retool, ML, workflows, and GenAI enablement, driving measurable improvements in engineering and employee productivity.`,
       `Oversaw development and adoption of internal tools including Querybook, Superset, ITP, PDocs, and MLHub, serving more than 50% of employees across data discovery, workflow automation, and documentation.`,
       `Drove company-wide GenAI adoption by building LLM API infra, prompt evaluation frameworks, and productivity tooling, supporting more than 70% of employees on AI capabilities.`
     ],
