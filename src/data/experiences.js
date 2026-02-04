@@ -1,22 +1,38 @@
 const experiences = [
   {
     company: "Pinterest",
-    position: "Senior Engineering Manager",
+    position: "Senior Engineering Manager, Agent Foundations",
     location: "San Francisco, CA",
     time: {
-      from: "Mar 2023",
-      to: "Present",
+      from: "Dec 2025",
+      to: "Now",
     },
 
     descriptions: [
-      `Lead the Analytics Platform team spanning analytics tooling, internal tools platform, ML & Workflow tooling, and GenAI enablement to improve dev and general productivity.`,
-      `Drive development of internal tools like Querybook, Superset, ITP, PDocs, and MLHub for data, tooling, and documentation needs.`,
-      `Drove wide adoption of GenAI at Pinterest by enabling LLM API access, prompt eval tooling, and productivity tools.`
+      `Lead Agent Foundations team across agent platform development, agentic coding tooling, and enterprise GenAI automation solutions.`,
+      `Established end-to-end agent platform covering development, evaluation, and serving lifecycle, enabling both customer-facing products and internal agent at scale.`,
+      `Drive enterprise-wide agentic coding adoption through strategic vendor partnerships, internal agent integration, and cross-functional enablement programs.`,
+      `Built and maintain suite of productivity tools including chat UI, browser extension, and Slack integrations, serving 70%+ employees for GenAI productivity.`
     ],
   },
   {
     company: "Pinterest",
-    position: "Senior Software Engineer",
+    position: "Senior Engineering Manager, Analytics Platform",
+    location: "San Francisco, CA",
+    time: {
+      from: "Mar 2023",
+      to: "Dec 2025",
+    },
+
+    descriptions: [
+      `Led 15+ member Analytics Platform team across analytics tooling, internal tool platforms, ML, workflows, and GenAI enablement, driving measurable improvements in engineering and employee productivity.`,
+      `Oversaw development and adoption of internal tools including Querybook, Superset, ITP, PDocs, and MLHub, serving more than 50% of employees across data discovery, workflow automation, and documentation.`,
+      `Drove company-wide GenAI adoption by building LLM API infra, prompt evaluation frameworks, and productivity tooling, supporting more than 70% of employees on AI capabilities.`
+    ],
+  },
+  {
+    company: "Pinterest",
+    position: "Staff Software Engineer",
     location: "San Francisco, CA",
     time: {
       from: "June 2017",
@@ -30,33 +46,7 @@ const experiences = [
       `Initiated and designed data tools like Flohub (SQL scheduler UI) and WQuery (template-based query interface).`
 
     ],
-  },
-  {
-    company: "University of Waterloo",
-    position: "Undergrad Research Assistant",
-    location: "Waterloo, ON",
-    time: {
-      from: "Sept 2016",
-      to: "Dec 2016",
-    },
-
-    descriptions: [
-      "Developed a network motif detector based on mfinder to analyze large graphs under supervision of Prof. Semih Salihoglu.",
-    ],
-  },
-  {
-    company: "Microsoft",
-    position: "Software Engineer Intern",
-    location: "Redmond, WA",
-    time: {
-      from: "Sept 2015",
-      to: "Dec 2015",
-    },
-
-    descriptions: [
-      "Productionized a random forest-based anomaly detector on Cosmos and built a support ticket categorizer with a manual correction UI.",
-    ],
-  },
+  }
 ];
 
 export default experiences;
