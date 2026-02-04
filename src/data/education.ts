@@ -1,4 +1,6 @@
-const education = [
+import type { Education } from "../types";
+
+const education: Education[] = [
   {
     school: "UT Austin",
     time: {
@@ -16,5 +18,7 @@ const education = [
     },
     degree: "Bachelor of Mathmatics",
     majors: ["Computer Science", "Combinatorics & Optimization"],
-  }];
+  }
+];
+
 export default education;

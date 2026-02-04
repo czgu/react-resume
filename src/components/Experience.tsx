@@ -1,34 +1,20 @@
-import React from "react";
-import styled from "styled-components";
 import experiences from "../data/experiences";
 import { Heading, Text } from "./ui/Text";
 import { List, ListItem } from "./ui/List";
-
-const StyledExperience = styled.div`
-  .experience-title {
-    display: flex;
-    align-items: center;
-
-    p:not(:last-child) {
-      margin-right: 5px;
-    }
-  }
-  margin-bottom: 5px;
-`;
 
 export const Experience = () => {
   const experienceSectionDOM = experiences.map((experience, index) => {
     const { company, position, location, time, descriptions } = experience;
 
     return (
-      <StyledExperience key={index}>
-        <div className="experience-title">
+      <div key={index} className="mb-[5px]">
+        <div className="flex items-center [&>p:not(:last-child)]:mr-[5px]">
           <Text weight="bold">{position}</Text>
           <Text size="0.9em">
             @{company}, {location}
           </Text>
         </div>
-        <Text color="darkgray" size="0.8em" className="experience-time">
+        <Text color="darkgray" size="0.8em">
           <span>
             {time.from}-{time.to}{" "}
             {time.notes ? <span>{time.notes}</span> : null}
@@ -41,9 +27,10 @@ export const Experience = () => {
             </ListItem>
           ))}
         </List>
-      </StyledExperience>
+      </div>
     );
   });
+
   return (
     <div>
       <Heading color="darkblue">EXPERIENCE</Heading>

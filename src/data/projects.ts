@@ -1,4 +1,6 @@
-const projects = [
+import type { Project } from "../types";
+
+const projects: Project[] = [
   {
     name: "Pinterest/Querybook (2.2k GitHub stars)",
     time: {
