@@ -17,7 +17,20 @@ export const DownloadPDFButton = () => {
   return (
     <button
       onClick={handleDownload}
-      className="fixed top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition-colors cursor-pointer print:hidden"
+      style={{
+        position: "fixed",
+        top: "1rem",
+        right: "1rem",
+        backgroundColor: "#2563eb",
+        color: "white",
+        padding: "0.5rem 1rem",
+        borderRadius: "0.5rem",
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+        border: "none",
+        cursor: "pointer",
+        zIndex: 1000,
+      }}
+      className="no-print"
     >
       Download PDF
     </button>
